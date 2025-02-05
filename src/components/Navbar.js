@@ -1,51 +1,104 @@
-// import { Link } from "react-router-dom";
 import { useState } from "react";
 
-
 const Navbar = () => {
-  const [mobileMenuOpen, seqtMobileMenuOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
-    <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light"> 
-            <a href="index.html" class="navbar-brand p-0">
-                <h4 class="text-primary mb-0">
-                    <i class="fas fa-building me-2"></i> AMMC Solutions
-                </h4>
-                {/* <!-- <img src="img/logo.png" alt="Logo"> --> */}
+    <div className="w-full bg-white shadow-sm fixed top-0 left-0 z-50">
+      {/* TopBar */}
+      <div className="container-fluid topbar px-0 px-lg-4 bg-light py-2">
+        <div className="container">
+          <div className="row gx-0 align-items-center">
+            {/* Location & Email */}
+            <div className="col-lg-8 text-center text-lg-start mb-lg-0">
+              <div className="d-flex flex-wrap">
+                <div className="border-end border-primary pe-3">
+                  <a href="#" className="text-muted small">
+                    <i className="fas fa-map-marker-alt text-primary me-2"></i> London, UK
+                  </a>
+                </div>
+                <div className="ps-3">
+                  <a href="mailto:ammc@gmail.com" className="text-muted small">
+                    <i className="fas fa-envelope text-primary me-2"></i> ammc@gmail.com
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Social Media Icons */}
+            <div className="col-lg-4 text-center text-lg-end">
+              <div className="d-flex justify-content-end">
+                <div className="d-flex border-primary pe-3">
+                  <a className="btn p-0 text-primary me-3" href="#"><i className="fab fa-facebook-f"></i></a>
+                  <a className="btn p-0 text-primary me-3" href="#"><i className="fab fa-twitter"></i></a>
+                  <a className="btn p-0 text-primary me-3" href="#"><i className="fab fa-instagram"></i></a>
+                  <a className="btn p-0 text-primary me-0" href="#"><i className="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Navbar */}
+      <div className="container-fluid nav-bar px-0 px-lg-4 py-3 bg-white">
+        <div className="container">
+          <nav className="navbar navbar-expand-lg navbar-light">
+            {/* Logo */}
+            <a href="index.html" className="navbar-brand p-0">
+              <h4 className="text-primary mb-0">
+                <i className="fas fa-building me-2"></i> AMMC Solutions
+              </h4>
             </a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
+
+            {/* Mobile Menu Button */}
+            <button
+              className="navbar-toggler border-0 px-3 py-2 shadow-sm"
+              style={{
+                background: "#f8f9fa",
+                borderRadius: "8px",
+              }}
+              type="button"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            >
+              <span className="fa fa-bars"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav mx-0 mx-lg-auto">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
-                    <a href="testimonial.html" class="nav-item nav-link">Testimonials</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    <div class="nav-btn px-3">
-                        {/* <!-- <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> --> */}
-                        <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Book a Call</a>
-                    </div>
-                </div>
-            </div>
-            <div class="d-none d-xl-flex flex-shrink-0 ps-4">
-                <a href="#" class="btn btn-light btn-lg-square rounded-circle position-relative wow tada" data-wow-delay=".9s">
-                    <i class="fa fa-phone-alt fa-2x"></i>
-                    <div class="position-absolute" style={{top: '7px', right: '12px'}}>
-                        <span><i class="fa fa-comment-dots text-secondary"></i></span>
-                    </div>
+
+            {/* Navbar Links */}
+            <div
+              className={`collapse navbar-collapse ${mobileMenuOpen ? "show" : ""}`}
+              id="navbarCollapse"
+            >
+              <div className="navbar-nav mx-0 mx-lg-auto">
+                <a href="index.html" className="nav-item nav-link active">
+                  Home
                 </a>
-                <div class="d-flex flex-column ms-3">
-                    <span>Call to Our Experts</span>
-                    <a href="tel:+ 0123 456 7890"><span class="text-dark">Free: + 0123 456 7890</span></a>
+                <a href="about.html" className="nav-item nav-link">
+                  About
+                </a>
+                <a href="service.html" className="nav-item nav-link">
+                  Services
+                </a>
+                <a href="testimonial.html" className="nav-item nav-link">
+                  Testimonials
+                </a>
+                <a href="contact.html" className="nav-item nav-link">
+                  Contact
+                </a>
+                <div className="nav-btn px-3">
+                  <a
+                    href="#"
+                    className="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"
+                  >
+                    Book a Call
+                  </a>
                 </div>
+              </div>
             </div>
-        </nav>
+          </nav>
+        </div>
+      </div>
     </div>
-</div>
   );
 };
 
