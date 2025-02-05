@@ -1,3 +1,7 @@
+/* Created this component but gave me a few issues
+   so I just added it into the Navbar code, 
+   see if you can just add the component in the nav bar code. */
+   
 const TopBar = () => {
     return (
       <div className="container-fluid topbar px-0 px-lg-4 bg-light py-2 w-100 position-fixed top-0 start-0 z-50">

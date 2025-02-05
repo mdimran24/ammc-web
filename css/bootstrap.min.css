@@ -17,7 +17,7 @@
   --bs-cyan: #e6c268;
   --bs-white: #fff;
   --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
+  --bs-gray-dark: #000000;
   --bs-primary: #d4af37;
   --bs-secondary: #e6c268;
   --bs-success: #198754;
@@ -4030,8 +4030,8 @@ fieldset:disabled .btn {
 }
 .card-footer {
   padding: 0.5rem 1rem;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(0, 0, 0, 0);
+  border-top: 1px solid rgba(0, 0, 0, 0);
 }
 .card-footer:last-child {
   border-radius: 0 0 9px 9px;

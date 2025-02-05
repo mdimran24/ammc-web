@@ -9,14 +9,17 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App">
       <BrowserRouter>
         <Navbar />
-        <div className="pages">
+        
+        {/* ✅ Push all content down to prevent navbar overlap */}
+        <div className="pages mt-8 md:mt-12">
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
         </div>
+
         <Footer />
       </BrowserRouter>
     </div>

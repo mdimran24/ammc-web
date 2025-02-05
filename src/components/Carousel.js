@@ -12,14 +12,12 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 md:px-12">
         <div className="row gy-4 gy-lg-0 gx-0 gx-lg-5 align-items-center">
-          {/* Logo - Moved to the Right */}
           <div className="col-lg-5 animated fadeInRight text-end">
             <div className="calrousel-img">
               <img src="/img/Logo.png" className="img-fluid w-100 max-w-xs md:max-w-sm" alt="AMMC Logo" />
             </div>
           </div>
 
-          {/* Text - Fully Right Aligned */}
           <div className="col-lg-7 animated fadeInLeft text-white text-end ms-auto">
             <h4 className="text-uppercase fw-bold mb-4 text-white">
               Welcome To AMMC Solutions
@@ -32,7 +30,6 @@ export default function HeroSection() {
               AMMC Solutions provides innovative, client-focused services
               designed to simplify your journey and maximize your success.
             </p>
-            {/* Buttons - Now Aligned Right */}
             <div className="d-flex justify-content-end flex-shrink-0 mb-4 space-x-4">
               <a
                 className="btn btn-light rounded-pill py-3 px-4 px-md-5"
