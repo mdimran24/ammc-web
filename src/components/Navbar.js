@@ -76,9 +76,33 @@ const Navbar = () => {
                 <a href="about.html" className="nav-item nav-link">
                   About
                 </a>
-                <a href="service.html" className="nav-item nav-link">
-                  Services
-                </a>
+                <div className="nav-item dropdown">
+                  <a
+                    href="#"
+                    className="nav-link dropdown-toggle"
+                    id="servicesDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="servicesDropdown"
+                  >
+                    <li>
+                      <a className="dropdown-item" href="landlord-services.html">
+                        Landlord Services
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="investor-services.html">
+                        Investor Services
+                      </a>
+                    </li>
+                  </ul>
+                </div>
                 <a href="testimonial.html" className="nav-item nav-link">
                   Testimonials
                 </a>
