@@ -19,9 +19,10 @@ export default function HeroSection() {
           </div>
 
           <div className="col-lg-7 animated fadeInLeft text-white text-end ms-auto">
-            <h4 className="text-uppercase fw-bold mb-4 text-white">
+            <h4 className="text-uppercase fw-bold text-white pt-4">
               Welcome To AMMC Solutions
             </h4>
+
             <h1 className="text-uppercase fw-bold mb-4 text-white">
               Tailored Property Solutions, Built Around You.
             </h1>

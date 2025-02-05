@@ -41,30 +41,14 @@ export default function ServiceStart() {
                     Landlord Services
                   </a>
                   <p className="mb-4">
-                  For Landlords – A Hassle-Free, Guaranteed Rental Solution
-Are you a landlord looking for a secure, long-term rental solution with no hassle? At AMMC Solutions LTD, we provide a company-let service that ensures you receive guaranteed rent every month for the entire duration of our agreement—whether that’s one, two, or three years.
-
-With our service, you no longer have to worry about:
-</p>
-<ul className="mb-4">
-<li>Void periods – Your rent is paid every month, regardless of occupancy.</li>
-<li>Late or missed payments – We handle all financial obligations directly.</li>
-<li>Tenant issues – No need to deal with tenants, as we fully manage the property.</li>
-<li>Maintenance and upkeep – We take care of general maintenance and ensure your property is well looked after.</li>
-</ul>
-
-How It Works:
-<ul>
-<li>Secure a Long-Term Contract – We agree on a fixed-term lease (1–3 years), guaranteeing your rent for the entire period.</li>
-<li>Full Property Management – Our team takes over all day-to-day management, including tenant placement, compliance, and upkeep.</li>
-<li>No Stress, No Hassle – You sit back and enjoy a consistent, hands-off income, while we handle everything.</li>
-</ul>
-<p className="mt-4">
-At AMMC Solutions LTD, we ensure your property is always maintained to a high standard, with regular inspections and a dedicated team overseeing all compliance and maintenance needs.
-
-By working with us, you gain the peace of mind that your property is in expert hands, generating reliable, passive income with none of the usual headaches.
-</p>
-
+                  From tenant management to maintenance, we handle all aspects of property management for landlords.
+                  </p>
+                  <a
+                    className="btn btn-primary rounded-pill py-2 px-4"
+                    href="#"
+                  >
+                    Read More
+                  </a>
                 </div>
               </div>
             </div>

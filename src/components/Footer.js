@@ -24,18 +24,18 @@ const Footer = () => {
                       and maximize your success.
                     </p>
                     <div className="footer-btn d-flex">
-                      <a className="btn btn-md-square rounded-circle me-3" href="#">
+                      <a className="btn btn-md-square rounded-circle me-3" href="https://www.facebook.com/share/1BDStixpr1/?mibextid=LQQJ4d">
                         <i className="fab fa-facebook-f" />
+                      </a>
+                      <a className="btn btn-md-square rounded-circle me-3" href="https://www.instagram.com/ammcsolutionsltd?igsh=MXFlb2p5OHU4cGZreQ%3D%3D&utm_source=qr">
+                        <i className="fab fa-instagram" />
+                      </a>
+                      {/* <a className="btn btn-md-square rounded-circle me-0" href="#">
+                        <i className="fab fa-linkedin-in" />
                       </a>
                       <a className="btn btn-md-square rounded-circle me-3" href="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a className="btn btn-md-square rounded-circle me-3" href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                      <a className="btn btn-md-square rounded-circle me-0" href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -106,12 +106,12 @@ const Footer = () => {
                       {
                         icon: "fas fa-envelope",
                         title: "Mail Us",
-                        text: "info@example.com",
+                        text: "contact@ammcsolutions.co.uk",
                       },
                       {
                         icon: "fa fa-phone-alt",
                         title: "Telephone",
-                        text: "(+012) 3456 7890",
+                        text: "(+44) 7380328132 (+44) 7506701546",
                       },
                     ].map((info, index) => (
                       <div
@@ -137,10 +137,6 @@ const Footer = () => {
           <div className="col-xl-3">
             <div className="footer-item">
               <h4 className="text-white mb-4">Newsletter</h4>
-              <p className="text-white mb-3">
-                Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit.
-              </p>
               <div className="position-relative rounded-pill mb-4">
                 <input
                   className="form-control rounded-pill w-100 py-3 ps-4 pe-5"
@@ -174,8 +170,11 @@ const Footer = () => {
                 </div>
                 <div className="d-flex flex-column ms-3 flex-shrink-0">
                   <span>Call to Our Experts</span>
-                  <a href="tel:+ 0123 456 7890">
-                    <span className="text-white">Free: + 0123 456 7890</span>
+                  <a href="tel:+447380328132">
+                    <span className="text-white">+447380328132</span>
+                  </a>
+                  <a href="tel:+447506701546">
+                    <span className="text-white">+447506701546</span>
                   </a>
                 </div>
               </div>

@@ -8,17 +8,15 @@ export default function AboutStart(){
           <h4 className="text-primary">About AMMC Solutions</h4>
           <h1 className="display-4 mb-4">Dedicated to Your Property Success</h1>
           <p>
-            Founded by two experienced property professionals, AMMC Solutions is dedicated to delivering exceptional services 
-            to landlords and investors. Our expertise in property management and investment ensures we provide value-driven 
-            solutions tailored to our clients' needs.
-          </p>
-          <p>
-            We pride ourselves on offering personalized, bespoke services to help you achieve your property and investment goals.
+          At AMMC Solutions LTD, we specialize in sourcing and managing high-yield property deals in London, 
+          offering tailored solutions for both landlords and investors. Our expertise in the property market 
+          allows us to secure exclusive, hassle-free, company-let opportunities that provide guaranteed rental income 
+          for landlords and high-return investments for investors.
           </p>
           <p className="text-dark"><i className="fa fa-check text-primary me-3" /> Personalized property management services.</p>
           <p className="text-dark"><i className="fa fa-check text-primary me-3" /> Expert advice for property investors.</p>
           <p className="text-dark mb-4"><i className="fa fa-check text-primary me-3" /> Transparent and reliable support.</p>
-          <a className="btn btn-primary rounded-pill py-3 px-5" href="#">More Information</a>
+          <a className="btn btn-primary rounded-pill py-3 px-5" href="#">Get In Touch</a>
         </div>
       </div>
       <div className="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
