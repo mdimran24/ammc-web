@@ -5808,6 +5808,7 @@ fieldset:disabled .btn {
   top: 0;
   z-index: 1020;
 }
+
 @media (min-width: 576px) {
   .sticky-sm-top {
     position: sticky;

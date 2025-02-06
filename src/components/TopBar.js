@@ -4,39 +4,32 @@
    
 const TopBar = () => {
     return (
-      <div className="container-fluid topbar px-0 px-lg-4 bg-light py-2 w-100 position-fixed top-0 start-0 z-50">
-        <div className="container">
-          <div className="row gx-0 align-items-center">
-            {/* Location & Email */}
-            <div className="col-lg-8 text-center text-lg-start mb-lg-0">
-              <div className="d-flex flex-wrap">
-                <div className="border-end border-primary pe-3">
-                  <a href="#" className="text-muted small">
-                    <i className="fas fa-map-marker-alt text-primary me-2"></i> London, UK
-                  </a>
-                </div>
-                <div className="ps-3">
-                  <a href="mailto:ammc@gmail.com" className="text-muted small">
-                    <i className="fas fa-envelope text-primary me-2"></i> ammc@gmail.com
-                  </a>
-                </div>
+      
+      <div class="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block">
+      <div class="container">
+          <div class="row gx-0 align-items-center">
+              <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                  <div class="d-flex flex-wrap">
+                      <div class="border-end border-primary pe-3">
+                          <a href="#" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i>London, UK</a>
+                      </div>
+                      <div class="ps-3">
+                          <a href="contact@ammcsolutions.co.uk" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>contact@ammcsolutions.co.uk</a>
+                      </div>
+                  </div>
               </div>
-            </div>
-  
-            {/* Social Media Icons */}
-            <div className="col-lg-4 text-center text-lg-end">
-              <div className="d-flex justify-content-end">
-                <div className="d-flex border-primary pe-3">
-                  <a className="btn p-0 text-primary me-3" href="#"><i className="fab fa-facebook-f"></i></a>
-                  <a className="btn p-0 text-primary me-3" href="#"><i className="fab fa-twitter"></i></a>
-                  <a className="btn p-0 text-primary me-3" href="#"><i className="fab fa-instagram"></i></a>
-                  <a className="btn p-0 text-primary me-0" href="#"><i className="fab fa-linkedin-in"></i></a>
-                </div>
+              <div class="col-lg-4 text-center text-lg-end">
+                  <div class="d-flex justify-content-end">
+                      <div class="d-flex border-primary pe-3">
+                      <a className="btn p-0 text-primary me-3" href="https://www.facebook.com/share/1BDStixpr1/?mibextid=LQQJ4d"><i className="fab fa-facebook-f"></i></a>
+                      <a className="btn p-0 text-primary me-3" href="https://www.instagram.com/ammcsolutionsltd?igsh=MXFlb2p5OHU4cGZreQ%3D%3D&utm_source=qr"><i className="fab fa-instagram"></i></a>
+                          <a class="btn p-0 text-primary me-0" href="https://www.linkedin.com/in/ammc-solutions-55254b349/"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
       </div>
+  </div>
     );
   };
   
