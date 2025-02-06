@@ -12,7 +12,25 @@ const Navbar = () => {
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
             {/* Logo */}
-            <img className="mx-4" style={{width:'2.5%'}} src={Logo} alt=""></img>
+            <img className="mx-4 img-fluid custom-logo" src={Logo} alt="" />
+<style>
+  {`
+    .custom-logo {
+    max-width: 2.5%;
+    }
+    @media (max-width: 768px) {
+      .custom-logo {
+        max-width: 6%;
+      }
+    }
+    @media (max-width: 480px) {
+      .custom-logo {
+        max-width: 8%;
+        margin-bottom: 18px;
+      }
+    }
+  `}
+</style>
             <a href="/" className="navbar-brand p-0">
               <h3 className="text-primary mb-lg-0 mb-4 font-weight-bold">AMMC Solutions</h3>
             </a>
