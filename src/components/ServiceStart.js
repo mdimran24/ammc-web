@@ -45,7 +45,7 @@ export default function ServiceStart() {
                   </p>
                   <a
                     className="btn btn-primary rounded-pill py-2 px-4"
-                    href="#"
+                    href="/landlordservices"
                   >
                     Read More
                   </a>
@@ -79,7 +79,7 @@ export default function ServiceStart() {
                   </p>
                   <a
                     className="btn btn-primary rounded-pill py-2 px-4"
-                    href="#"
+                    href="/investorservices"
                   >
                     Read More
                   </a>

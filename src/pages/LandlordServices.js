@@ -81,7 +81,7 @@ const LandlordServices = () => {
       <div className="sticky-top m-0 " style={{ top: "100px" }}>
         <img
           className="img-fluid rounded shadow-lg my-5"
-          src="/img/property2.png"
+          src="/img/property1.png"
           alt=""
         />
       </div>
