@@ -7,11 +7,11 @@ export default function ContactUs(){
       <h4 className="text-primary">Contact Us</h4>
       <h1 className="display-4 mb-4">General Enquiry</h1>
     </div>
-    <div className="row g-5">
+    <div className="row text-center g-5">
       <div className="col-xl-6 wow fadeInLeft d-flex align-items-center" data-wow-delay="0.2s">
         <div className="contact-img ">
           <div className="contact-img-inner">
-            <img src="img/contact.png" className="img-fluid w-100 rounded" alt="Image" />
+            <img src="img/logo.png" className=" center-block w-75 rounded align-items-center dflex" alt="Image" />
           </div>
         </div>
       </div>

@@ -54,7 +54,7 @@ const Navbar = () => {
               id="navbarCollapse"
             >
               <div className="navbar-nav mx-0 mx-lg-auto">
-                <a href="/" className="nav-item nav-link active">
+                <a href="/" className="nav-item nav-link">
                   Home
                 </a>
                 <a href="/about" className="nav-item nav-link">

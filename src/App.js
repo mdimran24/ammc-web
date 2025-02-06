@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import bootstrap from 'bootstrap';
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -11,6 +12,7 @@ import AboutUs from "./pages/AboutUs";
 import LandlordServices from "./pages/LandlordServices";
 import InvestorServices from "./pages/InvestorService";
 import ContactUs from "./pages/ContactUs"
+
 
 function App() {
   return (

@@ -1,31 +1,10 @@
 
-
+import MiniHero from "../components/MiniHero"
 
 export default function InvestorServices(){
     return (
         <>
-    <div
-      className="relative w-full min-h-screen flex items-center justify-end pt-24 md:pt-32"
-      style={{
-        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("/img/Property4.jpg")',
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
-      {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 md:px-12  ">
-        <div className="row gy-4 gy-lg-0 gx-0 gx-lg-5 align-items-center">
-
-          <div className="col-lg-7 animated fadeInLeft text-white text-end ms-auto">
-
-            <h1 className="text-uppercase fw-bold mb-4 text-white py-5">
-              Investor Services
-            </h1>
-          </div>
-        </div>
-      </div>
-    </div>
+        <MiniHero heading="Investor Services" />
 
     <div className="container min-vh-100 py-5">
   <div className="row gx-5">
@@ -46,23 +25,23 @@ export default function InvestorServices(){
         <h2 class="text-primary fw-bold">Why Invest with Us?</h2>
         <ul class="list-unstyled mt-3 text-secondary ">
           <li class="d-flex align-items-center">
-            <i class="bi bi-circle text-primary m-4"></i>
+            <i class="fa fa-check text-primary m-4"></i>
             <strong>Tailored Sourcing – We find properties that match your budget, investment goals, and desired profit margins.</strong>
           </li>
           <li class="d-flex align-items-center">
-            <i class="bi bi-circle text-primary m-4"></i>
+            <i class="fa fa-check text-primary m-4"></i>
             <strong>Prime London Locations – We identify high-demand properties in key areas, ensuring maximum occupancy rates.</strong>
           </li>
           <li class="d-flex align-items-center">
-            <i class="bi bi-circle text-primary m-4"></i>
+            <i class="fa fa-check text-primary m-4"></i>
             <strong> Exclusive Off-Market Deals – Gain access to properties before they hit the open market.</strong>
           </li>
           <li class="d-flex align-items-center">
-            <i class="bi bi-circle text-primary m-4"></i>
+            <i class="fa fa-check text-primary m-4"></i>
             <strong> High Returns – We focus on properties with strong rental yields and long-term income potential.</strong>
           </li>
           <li class="d-flex align-items-center">
-            <i class="bi bi-circle text-primary m-4"></i>
+            <i class="fa fa-check text-primary m-4"></i>
             <strong>Hassle-Free Investing – We handle everything from sourcing and negotiations to management and compliance.</strong>
           </li>
         </ul>
@@ -71,19 +50,19 @@ export default function InvestorServices(){
         <h2 class="text-primary fw-bold mt-4">How Our Process Works:</h2>
         <ul class="list-unstyled mt-3 text-secondary">
           <li class="d-flex align-items-center">
-            <i class="bi bi-circle text-secondary m-4"></i>
+            <i class="fa-solid fa-1 text-primary m-4"></i>
             <strong>Understanding Your Investment Goals – We take the time to understand your budget, return expectations, and preferred property type.</strong>
           </li>
           <li class="d-flex align-items-center">
-            <i class="bi bi-circle text-primary m-4"></i>
+            <i class="fa-solid fa-2 text-primary m-4"></i>
             <strong>Targeted Property Sourcing – Our team leverages market expertise to identify properties with the best rental and capital growth potential.</strong>
           </li>
           <li class="d-flex align-items-center">
-            <i class="bi bi-circle text-primary m-4"></i>
+            <i class="fa-solid fa-3 text-primary m-4"></i>
             <strong>Due Diligence & Negotiation – We conduct thorough due diligence and negotiate the best possible terms to maximize your profits.</strong>
           </li>
           <li class="d-flex align-items-center">
-            <i class="bi bi-circle text-primary m-4"></i>
+            <i class="fa-solid fa-4 text-primary m-4"></i>
             <strong>End-to-End Management (Optional) – If needed, we offer full property management services, so you can enjoy a hands-free investment experience.
             </strong>
           </li>

@@ -3,7 +3,7 @@ export default function HeroSection() {
     <div
       className="relative w-full min-h-screen flex items-center justify-end pt-24 md:pt-32"
       style={{
-        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("/img/Property4.jpg")',
+        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.7),rgba(212, 175, 55, 0.5)), url("/img/Property4.jpg")',
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -32,7 +32,12 @@ export default function HeroSection() {
               designed to simplify your journey and maximize your success.
             </p>
             <div className="d-flex justify-content-end flex-shrink-0 mb-4 space-x-4">
-
+            <a
+                className="btn btn-dark rounded-pill py-3 px-4 px-md-5"
+                href="about.html"
+              >
+                Learn More
+              </a>
             </div>
           </div>
         </div>

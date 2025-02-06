@@ -1,30 +1,10 @@
+import MiniHero from "../components/MiniHero";
 const LandlordServices = () => {
 
 
     return(
         <>
-    <div
-      className="relative w-full min-h-screen flex items-center justify-end pt-24 md:pt-32"
-      style={{
-        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("/img/Property4.jpg")',
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
-      {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 md:px-12  ">
-        <div className="row gy-4 gy-lg-0 gx-0 gx-lg-5 align-items-center">
-
-          <div className="col-lg-7 animated fadeInLeft text-white text-end ms-auto">
-
-            <h1 className="text-uppercase fw-bold mb-4 text-white py-5">
-              Landlord Services
-            </h1>
-          </div>
-        </div>
-      </div>
-    </div>
+        <MiniHero heading = "Landlord Services"/>
 
     <div className="container min-vh-100 py-5">
   <div className="row gx-5">
@@ -38,34 +18,35 @@ const LandlordServices = () => {
         <h4 className="text-primary">With our service, you no longer have to worry about:</h4>
         <ul class="list-unstyled mt-3 text-secondary ">
           <li class="d-flex align-items-center">
-            <i class="bi bi-check text-primary m-4"></i>
+            <i class="fa fa-check text-primary m-4"></i>
             <strong>Void periods – Your rent is paid every month, regardless of occupancy.</strong>
           </li>
           <li class="d-flex align-items-center">
-            <i class="bi bi-check text-primary m-4"></i>
+            <i class="fa fa-check text-primary m-4"></i>
             <strong>Late or missed payments – We handle all financial obligations directly.</strong>
           </li>
           <li class="d-flex align-items-center">
-            <i class="bi bi-check text-primary m-4"></i>
+            <i class="fa fa-check text-primary m-4"></i>
             <strong>Tenant issues – No need to deal with tenants, as we fully manage the property.</strong>
           </li>
           <li class="d-flex align-items-center">
-            <i class="bi bi-check text-primary m-4"></i>
+            <i class="fa fa-check text-primary m-4"></i>
             <strong> Maintenance and upkeep – We take care of general maintenance and ensure your property is well looked after.</strong>
           </li>
+          
         </ul>
         <h2 class="text-primary fw-bold mt-4">How It Works:</h2>
         <ul class="list-unstyled mt-3 text-secondary">
           <li class="d-flex align-items-center">
-            <i class="bi bi-circle text-secondary m-4"></i>
+            <i class="fa-solid fa-1 text-primary m-4"></i>
             <strong>Secure a Long-Term Contract – We agree on a fixed-term lease (1–3 years), guaranteeing your rent for the entire period.</strong>
           </li>
           <li class="d-flex align-items-center">
-            <i class="bi bi-circle text-primary m-4"></i>
+            <i class="fa-solid fa-2 text-primary m-4"></i>
             <strong> Full Property Management – Our team takes over all day-to-day management, including tenant placement, compliance, and upkeep.</strong>
           </li>
           <li class="d-flex align-items-center">
-            <i class="bi bi-circle text-primary m-4"></i>
+            <i class="fa-solid fa-3 text-primary m-4"></i>
             <strong>No Stress, No Hassle – You sit back and enjoy a consistent, hands-off income, while we handle everything.</strong>
           </li>
         </ul>
