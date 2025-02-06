@@ -780,7 +780,7 @@ code {
   height: 100%;
   top: 0;
   left: 0;
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  border-radius: 60% 70% 70% 60% / 60% 60% 70% 70%;
   background: rgba(255, 255, 255, 0.9);
   z-index: 1;
   animation-name: image-efects;
@@ -792,7 +792,7 @@ code {
 }
 
 @keyframes image-efects {
-  0%  {border-radius: 40% 80% 80% 40% / 40% 40% 80% 80%;}
+  0%  {border-radius: 60% 80% 80% 60% / 60% 0% 80% 80%;}
 
   25% {border-radius: 45% 75% 37% 83% / 81% 35% 85% 39%;}
 

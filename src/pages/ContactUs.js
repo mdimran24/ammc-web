@@ -1,3 +1,5 @@
+import ContactImg from '../Logo.jpg'
+
 export default function ContactUs(){
     return(
         <>
@@ -11,7 +13,7 @@ export default function ContactUs(){
       <div className="col-xl-6 wow fadeInLeft d-flex align-items-center " data-wow-delay="0.2s">
         <div className="contact-img p-5">
           <div className="contact-img-inner">
-            <img src="img/logo.jpg" className=" center-block w-75  align-items-center dflex" alt="Image" />
+            <img src={ContactImg} className=" center-block w-75  rounded align-items-center dflex" alt="Image" />
           </div>
         </div>
       </div>
