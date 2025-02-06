@@ -36,7 +36,9 @@ const Footer = () => {
       <li className="nav-item"><a href="/landlordservices" className="nav-link px-2 text-muted">Landlord Services</a></li>
       <li className="nav-item"><a href="/investorservices" className="nav-link px-2 text-muted">Investor Service</a></li>
       <li className="nav-item"><a href="/contact" className="nav-link px-2 text-muted">Contact Us</a></li>
+      <li className="nav-item"><p className="nav-link px-2 text-muted" style={{fontSize: '12px'}}>Created By Crystal Streak</p></li>
     </ul>
+    
   </footer>
 </div>
 
