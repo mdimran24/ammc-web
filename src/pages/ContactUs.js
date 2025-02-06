@@ -8,10 +8,10 @@ export default function ContactUs(){
       <h1 className="display-4 mb-4">General Enquiry</h1>
     </div>
     <div className="row g-5">
-      <div className="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
-        <div className="contact-img d-flex justify-content-center">
+      <div className="col-xl-6 wow fadeInLeft d-flex align-items-center" data-wow-delay="0.2s">
+        <div className="contact-img ">
           <div className="contact-img-inner">
-            <img src="img/contact.png" className="img-fluid w-100" alt="Image" />
+            <img src="img/contact.png" className="img-fluid w-100 rounded" alt="Image" />
           </div>
         </div>
       </div>
