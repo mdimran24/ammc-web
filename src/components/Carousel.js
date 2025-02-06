@@ -32,18 +32,7 @@ export default function HeroSection() {
               designed to simplify your journey and maximize your success.
             </p>
             <div className="d-flex justify-content-end flex-shrink-0 mb-4 space-x-4">
-              <a
-                className="btn btn-light rounded-pill py-3 px-4 px-md-5"
-                href="#"
-              >
-                Free Consultation
-              </a>
-              <a
-                className="btn btn-dark rounded-pill py-3 px-4 px-md-5"
-                href="about.html"
-              >
-                Learn More
-              </a>
+
             </div>
           </div>
         </div>

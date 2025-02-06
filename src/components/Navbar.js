@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Logo from '../logoNoText.svg'
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -12,10 +12,9 @@ const Navbar = () => {
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
             {/* Logo */}
+            <img className="mx-4" style={{width:'2.5%'}} src={Logo} alt=""></img>
             <a href="/" className="navbar-brand p-0">
-              <h4 className="text-primary mb-lg-0 mb-4 ">
-                <i className="fas fa-building me-2"></i> AMMC Solutions
-              </h4>
+              <h3 className="text-primary mb-lg-0 mb-4 font-weight-bold">AMMC Solutions</h3>
             </a>
 
             {/* Mobile Menu Button */}
@@ -37,7 +36,7 @@ const Navbar = () => {
               id="navbarCollapse"
             >
               <div className="navbar-nav mx-0 mx-lg-auto">
-                <a href="index.html" className="nav-item nav-link active">
+                <a href="/" className="nav-item nav-link active">
                   Home
                 </a>
                 <a href="/about" className="nav-item nav-link">
