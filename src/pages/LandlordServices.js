@@ -28,16 +28,7 @@ const LandlordServices = () => {
 
     <div className="container min-vh-100 py-5">
   <div className="row gx-5">
-  <div className="col-lg-6 ">
-      <div className="sticky-top m-0 " style={{ top: "100px" }}>
-        <img
-          className="img-fluid rounded shadow-lg my-5"
-          src="/img/property1.png"
-          alt=""
-        />
-      </div>
-      
-    </div>
+
     <div className="col-lg-6 px-lg-5">
 
       <div class="row mt-4">
@@ -86,7 +77,16 @@ const LandlordServices = () => {
     </div>
 
     </div>
-
+    <div className="col-lg-6 ">
+      <div className="sticky-top m-0 " style={{ top: "100px" }}>
+        <img
+          className="img-fluid rounded shadow-lg my-5"
+          src="/img/deal-3.jpg"
+          alt=""
+        />
+      </div>
+      
+    </div>
     
   </div>
 </div>
