@@ -18,6 +18,12 @@ const Navbar = () => {
     .custom-logo {
     max-width: 2.5%;
     }
+    @media (max-width: 1000px) {
+      .custom-logo {
+        max-width: 4%;
+        margin-bottom: 18px;
+      }
+    }
     @media (max-width: 768px) {
       .custom-logo {
         max-width: 6%;
