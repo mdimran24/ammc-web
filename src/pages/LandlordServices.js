@@ -39,7 +39,7 @@ const LandlordServices = () => {
         <ul class="list-unstyled mt-3 text-secondary">
           <li class="d-flex align-items-center">
             <i class="fa-solid fa-1 text-primary m-4"></i>
-            <strong>Secure a Long-Term Contract – We agree on a fixed-term lease (1–3 years), guaranteeing your rent for the entire period.</strong>
+            <strong>Secure a Long-Term Contract – We agree on a fixed-term lease (3–5 years), guaranteeing your rent for the entire period.</strong>
           </li>
           <li class="d-flex align-items-center">
             <i class="fa-solid fa-2 text-primary m-4"></i>
