@@ -32,9 +32,11 @@ export default function AboutStart() {
               <div style={{ overflow: "auto" }} id="nextprevious">
                 <div style={{ float: "right" }}>
                   <div class="clearfix pt-3">
-                    <button class="btn btn-primary p-3 px-5 rounded-pill" href="/contact">
+                    <a href="/contact">
+                    <button class="btn btn-primary p-3 px-5 rounded-pill" >
                       Get In Touch
                     </button>
+                    </a>
                   </div>
                 </div>
               </div>
