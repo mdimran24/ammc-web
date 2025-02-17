@@ -12,6 +12,7 @@ import AboutUs from "./pages/AboutUs";
 import LandlordServices from "./pages/LandlordServices";
 import InvestorServices from "./pages/InvestorService";
 import ContactUs from "./pages/ContactUs"
+import BacktoTop from "./components/BacktoTop";
 
 
 function App() {
@@ -32,8 +33,8 @@ function App() {
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/about" element={<AboutUs />} />
           </Routes>
+          {/* <BacktoTop/> */}
         </div>
-
         <Footer />
       </BrowserRouter>
     </div>

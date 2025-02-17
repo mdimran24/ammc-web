@@ -30,13 +30,18 @@ const Footer = () => {
   `}
 </style>
 
+
+    
+
     <ul className="nav col-md-4 justify-content-end">
-      <li className="nav-item"><a href="/" className="nav-link px-2 text-muted">Home</a></li>
-      <li className="nav-item"><a href="/about" className="nav-link px-2 text-muted">About Us</a></li>
-      <li className="nav-item"><a href="/landlordservices" className="nav-link px-2 text-muted">Landlord Services</a></li>
-      <li className="nav-item"><a href="/investorservices" className="nav-link px-2 text-muted">Investor Service</a></li>
-      <li className="nav-item"><a href="/contact" className="nav-link px-2 text-muted">Contact Us</a></li>
-      <li className="nav-item"><p className="nav-link px-2 text-muted" style={{fontSize: '12px'}}>Created By Crystal Streak</p></li>
+
+      <li className="nav-item"><a href="/" className="nav-link px-2 text-muted d-none d-xl-block">Home</a></li>
+      <li className="nav-item"><a href="/about" className="nav-link px-2 text-muted d-none d-xl-block">About Us</a></li>
+      <li className="nav-item"><a href="/landlordservices" className="nav-link px-2 text-muted d-none d-xl-block">Landlord Services</a></li>
+      <li className="nav-item"><a href="/investorservices" className="nav-link px-2 text-muted d-none d-xl-block">Investor Service</a></li>
+      <li className="nav-item"><a href="/contact" className="nav-link px-2 text-muted d-none d-xl-block">Contact Us</a></li>
+      <li className="nav-item"><p className="nav-link px-2 text-muted d-none d-xl-block" >Created By Crystal Streak</p></li>
+
     </ul>
     
   </footer>

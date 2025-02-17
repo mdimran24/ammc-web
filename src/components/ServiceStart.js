@@ -1,7 +1,7 @@
 export default function ServiceStart() {
   return (
     <div className="container-fluid service py-5">
-      <div className="container-fluid py-5 px-4">
+      <div className="container-fluid py-4 px-4">
         <div
           className="text-center mx-auto pb-5 wow fadeInUp"
           data-wow-delay="0.2s"
@@ -18,7 +18,7 @@ export default function ServiceStart() {
             management.
           </p>
         </div>
-        
+
         <div className="row g-4 justify-content-center">
           <div
             className="col-md-6 col-lg-6 col-xl-6 wow fadeInUp"
@@ -37,11 +37,12 @@ export default function ServiceStart() {
               </div>
               <div className="service-content p-4">
                 <div className="service-content-inner">
-                  <a href="#" className="d-inline-block h4 mb-4">
+                  <a href="/landlordservices" className="d-inline-block h4 mb-4">
                     Landlord Services
                   </a>
                   <p className="mb-4">
-                  From tenant management to maintenance, we handle all aspects of property management for landlords.
+                    From tenant management to maintenance, we handle all aspects
+                    of property management for landlords.
                   </p>
                   <a
                     className="btn btn-primary rounded-pill py-2 px-4"
@@ -70,7 +71,7 @@ export default function ServiceStart() {
               </div>
               <div className="service-content p-4">
                 <div className="service-content-inner">
-                  <a href="#" className="d-inline-block h4 mb-4">
+                  <a href="/investorservices" className="d-inline-block h4 mb-4">
                     Investor Services
                   </a>
                   <p className="mb-4">
@@ -87,7 +88,6 @@ export default function ServiceStart() {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>

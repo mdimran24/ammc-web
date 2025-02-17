@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
   margin: 0;
-  font-family: "Poppins", system-ui, sans-serif;
+  font-family: "Montserrat", system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -383,6 +383,7 @@ code {
   border-radius: 10px;
   background: var(--bs-white);
   transition: 0.5s;
+  height: 350px;
 }
 
 .feature .feature-item:hover {
@@ -397,7 +398,7 @@ code {
   justify-content: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  background: var(--bs-light);
+  background: var(--bs-secondary);
 }
 
 .feature .feature-item:hover .feature-icon i {
@@ -455,12 +456,14 @@ code {
 /*** Service Start ***/
 .service .service-item {
   border-radius: 10px;
+  
 }
 .service .service-item .service-img {
   position: relative;
   overflow: hidden;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  
 }
 
 .service .service-item .service-img img {
@@ -525,6 +528,7 @@ code {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   background: var(--bs-light);
+  height: 200px;
 }
 
 .service .service-item .service-content .service-content-inner {

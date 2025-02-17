@@ -20,7 +20,7 @@ export default function FeatureStart(){
           <p className="mb-4">
             Secure, stress-free rental income with no void periods. Enjoy peace of mind with consistent monthly payments.
           </p>
-          <a className="btn btn-primary rounded-pill py-2 px-4" href="landlordservices">Learn More</a>
+
         </div>
       </div>
       <div className="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
@@ -32,7 +32,7 @@ export default function FeatureStart(){
           <p className="mb-4">
             Exclusive deals that match your budget, goals, and desired profits. Let us find the perfect property for you.
           </p>
-          <a className="btn btn-primary rounded-pill py-2 px-4" href="/investorservices">Learn More</a>
+
         </div>
       </div>
       <div className="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
@@ -44,7 +44,7 @@ export default function FeatureStart(){
           <p className="mb-4">
             We handle everything from tenant placement to maintenance and compliance, making your property investment hassle-free.
           </p>
-          <a className="btn btn-primary rounded-pill py-2 px-4" href="landloardservices">Learn More</a>
+
         </div>
       </div>
       <div className="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
@@ -56,7 +56,6 @@ export default function FeatureStart(){
           <p className="mb-4">
             Leverage our industry expertise to find the best opportunities in prime London locations for maximum returns.
           </p>
-          <a className="btn btn-primary rounded-pill py-2 px-4" href="/investorservices">Learn More</a>
         </div>
       </div>
     </div>
