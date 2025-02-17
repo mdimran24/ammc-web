@@ -40,7 +40,7 @@ const Footer = () => {
       <li className="nav-item"><a href="/landlordservices" className="nav-link px-2 text-muted d-none d-xl-block">Landlord Services</a></li>
       <li className="nav-item"><a href="/investorservices" className="nav-link px-2 text-muted d-none d-xl-block">Investor Service</a></li>
       <li className="nav-item"><a href="/contact" className="nav-link px-2 text-muted d-none d-xl-block">Contact Us</a></li>
-      <li className="nav-item"><p className="nav-link px-2 text-muted d-none d-xl-block" >Created By Crystal Streak</p></li>
+      <li className="nav-item"><a className="nav-link px-2 text-muted " >Created By Crystal Streak</a></li>
 
     </ul>
     
