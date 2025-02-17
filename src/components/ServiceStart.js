@@ -35,12 +35,12 @@ export default function ServiceStart() {
                   <i className="fa fa-user-tie fa-2x" />
                 </div>
               </div>
-              <div className="service-content p-4 flex-grow-1 d-flex flex-column position-relative" style={{ zIndex: 10 }}>
+              <div className="service-content p-4 flex-grow-1 d-flex flex-column position-relative text-dark hover:text-white">
                 <div className="service-content-inner flex-grow-1">
-                  <a href="/landlordservices" className="d-inline-block h4 mb-3 text-dark">
+                  <a href="/landlordservices" className="d-inline-block h4 mb-3 service-title">
                     Landlord Services
                   </a>
-                  <p className="mb-4 text-dark">
+                  <p className="mb-4 service-text">
                     From tenant management to maintenance, we handle all aspects
                     of property management for landlords.
                   </p>
@@ -71,12 +71,12 @@ export default function ServiceStart() {
                   <i className="fa fa-chart-bar fa-2x" />
                 </div>
               </div>
-              <div className="service-content p-4 flex-grow-1 d-flex flex-column position-relative" style={{ zIndex: 10 }}>
+              <div className="service-content p-4 flex-grow-1 d-flex flex-column position-relative text-dark hover:text-white">
                 <div className="service-content-inner flex-grow-1">
-                  <a href="/investorservices" className="d-inline-block h4 mb-3 text-dark">
+                  <a href="/investorservices" className="d-inline-block h4 mb-3 service-title">
                     Investor Services
                   </a>
-                  <p className="mb-4 text-dark">
+                  <p className="mb-4 service-text">
                     Tailored investment strategies and market insights to help
                     you grow your portfolio.
                   </p>
