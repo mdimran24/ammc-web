@@ -37,9 +37,15 @@ const Navbar = () => {
     }
   `}
 </style>
-            <a href="/" className="navbar-brand p-0">
-              <h3 className="text-primary mb-lg-0 mb-4 font-weight-bold">AMMC Solutions</h3>
+<a href="/" className="navbar-brand p-0">
+              <h3 
+                className="text-primary mb-lg-0 mb-4 font-weight-bold fw-bolder"
+                style={{ fontWeight: "900", letterSpacing: "1px" }}
+              >
+                AMMC SOLUTIONS
+              </h3>
             </a>
+
 
             {/* Mobile Menu Button */}
             <button

@@ -1,7 +1,8 @@
 export default function ServiceStart() {
   return (
     <div className="container-fluid service py-5">
-      <div className="container-fluid py-4 px-4">
+      <div className="container py-4">
+        {/* Section Title */}
         <div
           className="text-center mx-auto pb-5 wow fadeInUp"
           data-wow-delay="0.2s"
@@ -9,7 +10,7 @@ export default function ServiceStart() {
         >
           <h4 className="text-primary">Our Services</h4>
           <h1 className="display-4 mb-4">
-            Comprehensive Solutions for Property Owners &amp; Investors
+            Comprehensive Solutions for Property Owners & Investors
           </h1>
           <p className="mb-0">
             At AMMC Solutions, we offer a range of services tailored to
@@ -19,12 +20,11 @@ export default function ServiceStart() {
           </p>
         </div>
 
+        {/* Services Row */}
         <div className="row g-4 justify-content-center">
-          <div
-            className="col-md-6 col-lg-6 col-xl-6 wow fadeInUp"
-            data-wow-delay="0.2s"
-          >
-            <div className="service-item">
+          {/* Landlord Services */}
+          <div className="col-md-6 col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div className="service-item h-100 d-flex flex-column position-relative">
               <div className="service-img">
                 <img
                   src="img/landlord-services.jpeg"
@@ -35,18 +35,21 @@ export default function ServiceStart() {
                   <i className="fa fa-user-tie fa-2x" />
                 </div>
               </div>
-              <div className="service-content p-4">
-                <div className="service-content-inner">
-                  <a href="/landlordservices" className="d-inline-block h4 mb-4">
+              <div className="service-content p-4 flex-grow-1 d-flex flex-column position-relative" style={{ zIndex: 10 }}>
+                <div className="service-content-inner flex-grow-1">
+                  <a href="/landlordservices" className="d-inline-block h4 mb-3 text-dark">
                     Landlord Services
                   </a>
-                  <p className="mb-4">
+                  <p className="mb-4 text-dark">
                     From tenant management to maintenance, we handle all aspects
                     of property management for landlords.
                   </p>
+                </div>
+                <div>
                   <a
-                    className="btn btn-primary rounded-pill py-2 px-4"
+                    className="btn btn-primary rounded-pill py-2 px-4 mt-auto position-relative"
                     href="/landlordservices"
+                    style={{ zIndex: 100 }}
                   >
                     Read More
                   </a>
@@ -54,11 +57,10 @@ export default function ServiceStart() {
               </div>
             </div>
           </div>
-          <div
-            className="col-md-6 col-lg-6 col-xl-6 wow fadeInUp"
-            data-wow-delay="0.4s"
-          >
-            <div className="service-item">
+
+          {/* Investor Services */}
+          <div className="col-md-6 col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div className="service-item h-100 d-flex flex-column position-relative">
               <div className="service-img">
                 <img
                   src="img/investor-services.jpeg"
@@ -69,18 +71,21 @@ export default function ServiceStart() {
                   <i className="fa fa-chart-bar fa-2x" />
                 </div>
               </div>
-              <div className="service-content p-4">
-                <div className="service-content-inner">
-                  <a href="/investorservices" className="d-inline-block h4 mb-4">
+              <div className="service-content p-4 flex-grow-1 d-flex flex-column position-relative" style={{ zIndex: 10 }}>
+                <div className="service-content-inner flex-grow-1">
+                  <a href="/investorservices" className="d-inline-block h4 mb-3 text-dark">
                     Investor Services
                   </a>
-                  <p className="mb-4">
+                  <p className="mb-4 text-dark">
                     Tailored investment strategies and market insights to help
                     you grow your portfolio.
                   </p>
+                </div>
+                <div>
                   <a
-                    className="btn btn-primary rounded-pill py-2 px-4"
+                    className="btn btn-primary rounded-pill py-2 px-4 mt-auto position-relative"
                     href="/investorservices"
+                    style={{ zIndex: 100 }}
                   >
                     Read More
                   </a>
