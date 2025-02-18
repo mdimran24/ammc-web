@@ -35,19 +35,19 @@ export default function ServiceStart() {
                   <i className="fa fa-user-tie fa-2x" />
                 </div>
               </div>
-              <div className="service-content p-4 flex-grow-1 d-flex flex-column position-relative text-dark hover:text-white">
+              <div className="service-content p-4 d-flex flex-column flex-grow-1 position-relative">
                 <div className="service-content-inner flex-grow-1">
-                  <a href="/landlordservices" className="d-inline-block h4 mb-3 service-title">
+                  <a href="/landlordservices" className="d-inline-block h4 mb-1 service-title">
                     Landlord Services
                   </a>
-                  <p className="mb-4 service-text">
+                  <p className="mb-2 service-text">
                     From tenant management to maintenance, we handle all aspects
                     of property management for landlords.
                   </p>
                 </div>
-                <div>
+                <div className="mt-n2">
                   <a
-                    className="btn btn-primary rounded-pill py-2 px-4 mt-auto position-relative"
+                    className="btn btn-primary rounded-pill py-2 px-4 position-relative"
                     href="/landlordservices"
                     style={{ zIndex: 100 }}
                   >
@@ -71,19 +71,19 @@ export default function ServiceStart() {
                   <i className="fa fa-chart-bar fa-2x" />
                 </div>
               </div>
-              <div className="service-content p-4 flex-grow-1 d-flex flex-column position-relative text-dark hover:text-white">
+              <div className="service-content p-4 d-flex flex-column flex-grow-1 position-relative">
                 <div className="service-content-inner flex-grow-1">
-                  <a href="/investorservices" className="d-inline-block h4 mb-3 service-title">
+                  <a href="/investorservices" className="d-inline-block h4 mb-1 service-title">
                     Investor Services
                   </a>
-                  <p className="mb-4 service-text">
+                  <p className="mb-2 service-text">
                     Tailored investment strategies and market insights to help
                     you grow your portfolio.
                   </p>
                 </div>
-                <div>
+                <div className="mt-n2">
                   <a
-                    className="btn btn-primary rounded-pill py-2 px-4 mt-auto position-relative"
+                    className="btn btn-primary rounded-pill py-2 px-4 position-relative"
                     href="/investorservices"
                     style={{ zIndex: 100 }}
                   >
