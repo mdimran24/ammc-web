@@ -12,9 +12,9 @@ export default function Home() {
             <div className="row g-5">
               <div className="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                 <div className="about-item-content bg-white rounded p-5 h-100">
-                  <h4 className="text-primary">About AMMC Solutions</h4>
+                  <h4 className="text-primary"></h4>
                   <h1 className="display-4 mb-4">
-                    Dedicated to Your Property Success
+                    About AMMC
                   </h1>
                   <p>
                     Founded by two experienced property professionals, AMMC
