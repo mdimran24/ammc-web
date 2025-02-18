@@ -11,8 +11,9 @@ const Navbar = () => {
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
             {/* Logo */}
+            <a href = "/">
             <img className="mx-4 img-fluid custom-logo" src={Logo} alt="Logo" />
-
+    </a>
             <style>
               {`
                 .custom-logo {
