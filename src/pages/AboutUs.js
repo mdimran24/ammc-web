@@ -50,6 +50,6 @@ export default function Home() {
         {/* Feature Start */}
       <FeatureStart />
       </div>
-    </div>
+
   );
 }
