@@ -7,7 +7,7 @@ export default function Home() {
       <MiniHero heading="About Us" />
 
       <div>
-    <div className="bg-light  mt-4 ">
+    <div className="bg-light  pt-4 ">
       <div className="container pb-5">
         <div className=" g-5">
           <div className=" wow fadeInLeft" data-wow-delay="0.2s">
