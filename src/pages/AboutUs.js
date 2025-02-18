@@ -7,13 +7,13 @@ export default function Home() {
       <MiniHero heading="About Us" />
 
       <div>
-        <div className="container-fluid bg-light about pb-5">
-          <div className="container pb-5">
-            <div className="row g-5">
-              <div className="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
-                <div className="about-item-content bg-white rounded p-5 h-100">
-                  <h4 className="text-primary"></h4>
-                  <h1 className="display-4 mb-4">
+    <div className="bg-light  pb-5">
+      <div className="container pb-5">
+        <div className=" g-5">
+          <div className=" wow fadeInLeft" data-wow-delay="0.2s">
+            <div className="about-item-content bg-white rounded p-5 h-100">
+              <h4 className="text-primary">About AMMC Solutions</h4>
+              <h1 className="display-4 mb-4">
                     About AMMC
                   </h1>
                   <p>
@@ -118,7 +118,7 @@ export default function Home() {
         </div>
         {/* About End */}
         {/* Feature Start */}
-        <FeatureStart />
+
       </div>
     </div>
   );
