@@ -15,10 +15,40 @@ const Navbar = () => {
               <img
                 src={Logo}
                 alt="AMMC Solutions"
-                className="mx-4 img-fluid custom-logo"
+                className="mx-4 img-fluid custom-logo "
                 style={{ maxWidth: "60px", height: "auto" }}
               />
             </a>
+            <style>
+              {`
+                .custom-logo {
+                  max-width: 2.5%;
+                }
+                @media (max-width: 1000px) {
+                  .custom-logo {
+                    max-width: 4%;
+                    margin-bottom: 18px;
+                  }
+                }
+                @media (max-width: 768px) {
+                  .custom-logo {
+                    max-width: 6%;
+                  }
+                }
+                @media (max-width: 480px) {
+                  .custom-logo {
+                    max-width: 8%;
+                    margin-bottom: 18px;
+                  }
+                }
+                /* Hide the title on smaller screens */
+                @media (max-width: 576px) {
+                  .navbar-brand h3 {
+                    display: none;
+                  }
+                }
+              `}
+            </style>
             <a href="/" className="navbar-brand p-0 d-none d-md-block">
               <h3
                 className="text-primary mb-lg-0 mb-4 font-weight-bold fw-bolder"
