@@ -20,7 +20,7 @@ export default function ContactUs(){
       <div className="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
         <div>
           <h4 className="text-primary">Send Your Message</h4>
- <form action="https://formsubmit.co/contact@ammcsolutions.co.uk" method="POST" class="rounded p-4 mb-4 border shadow-sm">
+ <form action="https://formsubmit.co/6198e2ab0ba1c62252f988cd3279db57 " method="POST" class="rounded p-4 mb-4 border shadow-sm">
 
 <div class="mb-3">
     <label class="form-label text-primary fw-bold" for="fname">First Name</label>
